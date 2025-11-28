@@ -1,8 +1,6 @@
-![PixelSize](./spatio_logo.png)
+🧮 Calculateur instantané de GSD pour la photogrammétrie
 
-🧮 Spatio – Calculateur instantané de GSD pour la photogrammétrie
-
-Spatio est un outil ultra-simple conçu pour les projets de photogrammétrie. Il calcule automatiquement la GSD (Ground Sample Distance) en fonction de votre objectif, du capteur, de la distance sujet-caméra et de la résolution d’image.
+PIXX est un outil ultra-simple conçu pour les projets de photogrammétrie. Il calcule automatiquement la GSD (Ground Sample Distance) en fonction de votre objectif, du capteur, de la distance sujet-caméra et de la résolution d’image.
 
 Comment ça marche ?
 
