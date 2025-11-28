@@ -14,7 +14,7 @@ Sélectionnez la résolution d’image (en mégapixels ou dimensions X/Y)
 
 Les résultats se mettent à jour en temps réel, sans clic supplémentaire.
 
-🚀 Ce que Spatio calcule
+🚀 Ce que DPIX calcule
 
 GSD en mm/px
 Déterminé automatiquement à partir :
@@ -28,14 +28,14 @@ de la distance au sujet
 de la résolution de l'image
 
 Exemple :
-Avec un capteur Full Frame, une focale 50 mm, une distance de 10 m et une image 24 MP (6000×4000), Spatio vous indique :
+Avec un capteur Full Frame, une focale 50 mm, une distance de 10 m et une image 24 MP (6000×4000), DPIX vous indique :
 ➡️ GSD : 12.000 mm/px
 
 🌐 Démo en ligne
 
 👉 Ouvrir l’application
 
-[![Ouvrir l'app](https://img.shields.io/badge/Ouvrir%20l%27app-Spatio-blue)](https://450ppm.github.io/Spatio/)
+[![Ouvrir l'app](https://img.shields.io/badge/Ouvrir%20l%27app-Spatio-blue)](https://450ppm.github.io/DPIX/)
 
 📂 Technologies
 
