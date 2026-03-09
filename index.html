@@ -11,40 +11,47 @@
             box-sizing: border-box;
         }
 
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: auto;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: #0a0a0a;
             color: #e5e5e5;
             min-height: 100vh;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            margin: 0;
+            flex-direction: column;
+            align-items: stretch;
+            padding: 16px;
         }
 
         .container {
             background: #111111;
             border: 1px solid #1a1a1a;
             border-radius: 12px;
-            padding: 40px;
-            max-width: 800px;
+            padding: 24px;
+            flex: 1;
+            max-width: 100%;
             width: 100%;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            overflow-y: auto;
         }
 
         .logo-section {
             text-align: center;
-            margin: -40px -40px 30px -40px; /* banner pleine largeur du conteneur */
+            margin-bottom: 20px;
         }
 
         .logo {
-            width: 100%;
+            max-width: 140px;
+            width: auto;
             height: auto;
             display: block;
+            margin: 0 auto;
             filter: brightness(0.95);
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
         }
 
         h1 {
@@ -199,13 +206,16 @@
             }
             
             .container {
-                padding: 20px;
+                padding: 16px;
+            }
+            
+            .logo {
+                max-width: 110px;
             }
             
             h1 {
                 font-size: 2em;
             }
-
         }
     </style>
 </head>
